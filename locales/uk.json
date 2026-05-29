@@ -1,0 +1,137 @@
+toolbar:
+  clear: Очистити
+  download: Завантажити
+  download-filtered: Завантажити відфільтровані логи
+  search: Пошук
+  inverse-on: Виключити збіги (інверсія)
+  inverse-off: Включити збіги (звичайний режим)
+  show: Показати {std}
+  show-all: Показати все
+  stop: Зупинити
+  start: Запустити
+  restart: Перезапустити
+  update: Оновити
+  update-service: Оновити сервіс
+  update-pulling: Завантаження нового образу...
+  update-recreating: Пересоздання контейнера...
+  update-done: Контейнер успішно оновлено
+  update-up-to-date: Уже актуальна версія
+  show-hostname: Показувати hostname
+  show-container-name: Показувати ім’я контейнера
+  shell: Shell
+  attach: Підключитися
+  copy-permalink: Копіювати постійне посилання
+  copy-logs: Копіювати логи
+  copy-filtered-logs: Копіювати відфільтровані логи
+  copying-logs: Копіювання логів...
+
+action:
+  copy-log: Копіювати лог
+  copy-link: Копіювати посилання
+  see-in-context: Показати в контексті
+  show-details: Показати деталі
+  create-alert: Створити сповіщення
+
+label:
+  containers: Контейнери
+  container: Немає контейнерів | 1 контейнер | {count} контейнерів
+  host-count: Немає хостів | 1 хост | {count} хостів
+  service: Немає сервісів | 1 сервіс | {count} сервісів
+  services: Сервіси
+  running-containers: Запущені контейнери
+  all-containers: Усі контейнери
+  all-namespaces: Усі
+  namespaces: Простори імен
+  host: Хост
+  hosts: Хости
+  password: Пароль
+  username: Ім’я користувача
+  container-name: Ім’я контейнера
+  status: Статус
+  created: Створено
+  avg-cpu: Сер. CPU (%)
+  avg-mem: Сер. RAM (%)
+  name: Назва
+  cpu: CPU
+  mem: RAM
+  pinned: Закріплено
+  per-page: Рядків на сторінці
+  host-menu: Хости та контейнери
+  swarm-menu: Сервіси та стеки
+  k8s-menu: Kubernetes
+  group-menu: Користувацькі групи
+  no-logs: Контейнер ще не має логів
+  show-all-containers: Показувати всі контейнери
+  collapse-all: Згорнути все
+  collapse-group: Згорнути групу
+  expand-all: Розгорнути все
+
+tooltip:
+  search: Пошук контейнерів (⌘ + k, ⌃k)
+  pin-column: Закріпити як колонку
+  merge-all: Об’єднати все в один потік
+  network-io: "Мережа: ↑ {tx}/с · ↓ {rx}/с"
+  disk-io: "Диск: ↑ {write}/с · ↓ {read}/с"
+  cpu-usage: "CPU {cpu}% / {cores} ядер"
+  memory-usage: "Пам’ять {used} / {total}"
+  volumes: Томі
+  volume-unreachable: недоступний із цього хоста
+  volume-full: "{destination} заповнений на {pct}"
+
+error:
+  page-not-found: Ця сторінка не існує
+  host-group-not-found: 'У групі "{name}" не знайдено хостів'
+  invalid-auth: Невірне ім’я користувача або пароль
+  copy-not-supported: Копіювання в буфер обміну не підтримується вашим браузером
+  copy-not-supported-hint: Буфер обміну недоступний. Скопіюйте посилання нижче
+  logs-skipped: Показати {total} прихованих записів
+  container-not-found: Контейнер не знайдено
+  action-failed: Помилка виконання дії
+  update-failed: Помилка оновлення
+  unable-to-complete-action: Не вдалося виконати дію
+  invalid-action: Неприпустима дія
+  unable-to-update: Не вдалося оновити контейнер
+  something-went-wrong: Щось пішло не так
+  unknown-error: Невідома помилка
+
+  events-stream:
+    title: Неочікувана помилка
+    message: >-
+      Інтерфейс Dozzle не зміг підключитися до API. Перевірте налаштування мережі.
+      Якщо ви використовуєте reverse proxy, переконайтеся, що його налаштовано правильно.
+
+  events-timeout:
+    title: Щось не так
+    message: >-
+      Інтерфейс Dozzle не зміг підключитися до API через таймаут.
+      Перевірте мережеве з’єднання та спробуйте ще раз.
+
+alert:
+  redirected:
+    title: Перенаправлено на новий контейнер
+    message: Dozzle автоматично перенаправив вас до нового контейнера {containerId}.
+
+  similar-container-found:
+    title: Знайдено схожий контейнер
+    message: >-
+      Dozzle знайшов схожий контейнер {containerId}, який працює на тому ж хості,
+      і автоматично переключиться на нього, якщо ви не натиснете «Скасувати».
+
+title:
+  page-not-found: Сторінку не знайдено
+  login: Потрібна автентифікація
+  dashboard: 1 контейнер | {count} контейнерів
+  settings: Налаштування
+  notifications: Сповіщення
+
+button:
+  logout: Вийти
+  login: Увійти
+  settings: Налаштування
+  cancel: Скасувати
+  redirect: Перенаправити
+  retry: Повторити
+
+placeholder:
+  search-containers: Пошук контейнерів (⌘ + k, ⌃k)
+  search: Пошук
